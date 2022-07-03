@@ -1,0 +1,20 @@
+body {
+    padding: 10px;
+    margin: 0;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    /* grid-template-rows: repeat(16, 30px); */
+    /* grid-auto-rows: 1fr; */
+}
+
+.grid-item {
+    /* border: 1px solid red; */
+    /* height: 20px; */
+    aspect-ratio: 1;
+}
+
+.size-button {
+    margin: 20px;
+}
